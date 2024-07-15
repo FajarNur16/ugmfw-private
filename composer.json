@@ -1,7 +1,20 @@
 {
-  "name": "ugmfwlib/private",
-  "description": "Private Package",
-  "version": "1.0.0",
-  "type": "library",
-  "require": {}
+    "name": "ugmfwlib/private",
+    "description": "Private Package",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ugmfwlib\\Private\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fajar Nur Ridlo Utomo",
+            "email": "fajarnur.ridlo@gmail.com"
+        }
+    ],
+    "license": "MIT"
 }
