@@ -1,0 +1,7 @@
+{
+  "name": "ugmfwlib/private",
+  "description": "Private Package",
+  "version": "1.0.0",
+  "type": "library",
+  "require": {}
+}
